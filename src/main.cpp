@@ -3,6 +3,7 @@
 #include <string>
 #include <chrono>
 #include <thread>
+#include <fstream>  // <-- Ajoute cette ligne
 #include "Capteur.hpp"
 #include "Alerte.hpp"
 #include "GenerateurDonnees.hpp"
