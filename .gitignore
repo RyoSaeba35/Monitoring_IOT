@@ -1,0 +1,5 @@
+build/
+*.exe
+*.o
+*.out
+donnees_capteurs.csv
