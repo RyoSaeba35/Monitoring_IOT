@@ -15,8 +15,6 @@ Ce projet simule la collecte de données depuis des capteurs, détecte les anoma
 
 # Structure du projet
 
----
-
 Monitoring_IOT/
 ├── CMakeLists.txt       # Configuration CMake
 ├── README.md
