@@ -5,7 +5,7 @@ Ce projet simule la collecte de données depuis des capteurs, détecte les anoma
 
 ---
 
-# Fonctionnalités
+## Fonctionnalités
 - Simulation de capteurs (température, pression, humidité).
 - Détection d'anomalies avec des seuils prédéfinis.
 - Sauvegarde des données dans un fichier CSV (`donnees_capteurs.csv`).
@@ -35,14 +35,14 @@ Monitoring_IOT/
 
 ---
 
-# Compilation et exécution
+## Compilation et exécution
 
 #Prérequis
 - **CMake** (≥ 3.10)
 - **Compilateur C++11** (GCC, Clang, MSVC)
 - **Git** (pour cloner le dépôt)
 
-# Étapes
+## Étapes
 1. Cloner le dépôt :
    ```bash
    git clone https://github.com/RyoSaeba35/Monitoring_IOT.git
@@ -54,7 +54,7 @@ Monitoring_IOT/
 3. Exécuter le programme :
    ./iot_monitoring
 
-#  Exemple de sortie
+## Exemple de sortie
 Démarrage du système de monitoring IoT...
 Appuyez sur Ctrl+C pour arrêter.
 
@@ -71,7 +71,7 @@ Timestamp            ID        Type          Valeur  Unité
 2026-07-10 17:03:18  CAP003    Humidité      63.5     %
 2026-07-10 17:03:18  CAP004    Pression      999.2    hPa
 
-# Fichiers générés
+## Fichiers générés
 donnees_capteurs.csv
 
 #Configuration des seuils
