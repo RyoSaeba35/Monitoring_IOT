@@ -13,27 +13,6 @@ Ce projet simule la collecte de données depuis des capteurs, détecte les anoma
 
 ---
 
-## Structure du projet
-
-Monitoring_IOT/
-├── CMakeLists.txt       # Configuration CMake
-├── README.md
-├── .gitignore
-├── include/             # Fichiers d'en-tête (.hpp)
-│   ├── Capteur.hpp
-│   ├── Alerte.hpp
-│   ├── GenerateurDonnees.hpp
-│   ├── GestionFichiers.hpp
-│   └── Affichage.hpp
-└── src/                # Implémentations (.cpp)
-├── Capteur.cpp
-├── Alerte.cpp
-├── GenerateurDonnees.cpp
-├── GestionFichiers.cpp
-├── Affichage.cpp
-└── main.cpp
-
----
 
 ## Compilation et exécution
 
